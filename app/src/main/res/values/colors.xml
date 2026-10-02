@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the Compose surface used by the top and navigation bars. -->
+    <color name="system_bar_surface">#FFFFFFFF</color>
+</resources>

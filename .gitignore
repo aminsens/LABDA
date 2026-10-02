@@ -1,0 +1,35 @@
+# Android Studio and Gradle
+*.iml
+/.gradle/
+/.idea/
+/local.properties
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated application artifacts
+/app/release/*.apk
+/app/release/*.aab
+/app/release/output-metadata.json
+/app/release/baselineProfiles/
+
+# Device smoke-test output (logs and database snapshots)
+/smoke_test_results/
+
+# Local signing material
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Local environment and operating-system state
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Private design material and future-study notes
+/Designs/
+/docs/

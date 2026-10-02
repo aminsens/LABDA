@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        The system bars are painted the same white as the app's top bar, so the
+        status bar stops reading as a grey band above a light app. Both bars get
+        the light-appearance flag so their icons are drawn dark on white.
+    -->
+    <style name="Theme.DataLoggerApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/system_bar_surface</item>
+        <item name="android:navigationBarColor">@color/system_bar_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
